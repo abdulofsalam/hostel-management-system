@@ -177,3 +177,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "https://hostel-management-system-mu-weld.vercel.app/",
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://hostel-management-system-mu-weld.vercel.app/"
+]
